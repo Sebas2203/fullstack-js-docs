@@ -82,7 +82,17 @@ npm run dev
 
 ## STAGE 5
 
-| Task            | Tools          |
-| --------------- | -------------- |
-| Deploy Frontend | Vercel/Netlify |
-| Deploy Backend  | Render/Railway |
+- Connect React frontend ↔ Node.js backend
+- Backend ↔ Database (MongoDB or SQL)
+- Use environment variables (.env)
+- Folder structure:
+
+## STAGE 6
+
+| Task                  | Tools                           |
+| --------------------- | ------------------------------- |
+| Deploy Frontend       | Vercel / Netlify                |
+| Deploy Backend        | Render / Railway                |
+| Cloud Database        | MongoDB Atlas / Supabase        |
+| Environment Variables | `.env` (never upload to GitHub) |
+| Documentation         | `README.md` + optional Swagger  |
